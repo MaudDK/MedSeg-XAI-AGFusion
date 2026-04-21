@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets
+datasets/
+
+# Logs / checkpoints
+logs/
+checkpoints/
+
+# OS junk
+.DS_Store
+*.slurm

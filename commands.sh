@@ -1,0 +1,17 @@
+sbatch --job-name="ViT_Tiny" train.slurm --model ViT_Tiny
+sbatch --job-name="ViT_Small" train.slurm --model ViT_Small
+sbatch --job-name="ViT_Base" train.slurm --model ViT_Base
+sbatch --job-name="Res34Unet" train.slurm --model Res34Unet
+sbatch --job-name="DeepLabV3Res50UNet" train.slurm --model DeepLabV3Res50UNet
+sbatch --job-name="PreDeitBase" train.slurm --model Deit_Base
+sbatch --job-name="PreSwinBase" train.slurm --model Swin_Base
+sbatch --job-name="ViT_Tiny_Tim" train.slurm --model ViT_Tiny_Tim
+sbatch --job-name="ViT_Small_Tim" train.slurm --model ViT_Small_Tim
+sbatch --job-name="ViT_Base_Tim" train.slurm --model ViT_Base_Tim
+sbatch --job-name="Swin_Base_Skip" train.slurm --model Swin_Base_Skip
+sbatch --job-name="Duck" train.slurm --model DuckNet
+sbatch --job-name="DualEncoderNoAtt" train.slurm --model DualEncoder
+sbatch --job-name="DualEncoderAtt" train.slurm --model AttDualEncoder
+sbatch --job-name="DualEncoderWeightedAtt" train.slurm --model WeightedAttDualEncoder
+sbatch --job-name="AttentionDualEncoderSwin" train.slurm --model AttentionDualEncoderSwin
+sbatch --job-name="AttentionDualEncoderRes" train.slurm --model AttentionDualEncoderRes
