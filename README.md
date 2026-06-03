@@ -62,7 +62,27 @@ python MAIN_MODEL_TRAINER.py --model AttentionDualEncoderSwin --epochs 500 --pat
 
 ### Available `--model` options
 
-`Res34Unet`, `Res34UnetNoSkip`, `DeepLabV3Res50UNetNoSkip`, `DeepLabV3Res50UNet`, `ViT_Tiny`, `ViT_Small`, `ViT_Base`, `Deit_Base`, `Swin_Base`, `Swin_Base_Skip`, `ViT_Base_Tim`, `ViT_Small_Tim`, `ViT_Tiny_Tim`, `ViT_Large`, `ViT_Huge`, `DuckNet`, `DualEncoder`, `AttDualEncoder`, `WeightedAttDualEncoder`, `AttentionDualEncoderSwin`, `AttentionDualEncoderRes`.
+- `Res34Unet`
+- `Res34UnetNoSkip`
+- `DeepLabV3Res50UNetNoSkip`
+- `DeepLabV3Res50UNet`
+- `ViT_Tiny`
+- `ViT_Small`
+- `ViT_Base`
+- `Deit_Base`
+- `Swin_Base`
+- `Swin_Base_Skip`
+- `ViT_Base_Tim`
+- `ViT_Small_Tim`
+- `ViT_Tiny_Tim`
+- `ViT_Large`
+- `ViT_Huge`
+- `DuckNet`
+- `DualEncoder`
+- `AttDualEncoder`
+- `WeightedAttDualEncoder`
+- `AttentionDualEncoderSwin`
+- `AttentionDualEncoderRes`
 
 For cluster execution examples, see:
 - `commands.sh`
