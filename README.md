@@ -37,6 +37,10 @@ pip install torch torchvision timm pandas numpy tqdm matplotlib opencv-python
 ```
 
 > Dataset loaders are imported from `datasets.KVASIRData` and `datasets.CAMUSData`, so those modules/files must be available in your environment.
+> At minimum, provide:
+> - `datasets/KVASIRData.py` with `KvasirSegmentationDataset`
+> - `datasets/CAMUSData.py` with `CamusSegmentationDataset`
+> and ensure `datasets/` is a Python package (for example, include `datasets/__init__.py`).
 
 ## Data layout (expected)
 
